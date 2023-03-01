@@ -1,12 +1,9 @@
 body {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
 }
+
+/* header */
 
 .header {}
 
@@ -22,14 +19,18 @@ body {
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    color: #4D5AE5;
 }
 
-.header-list {}
+.header-list {
+    list-style: none;
+}
 
 .header-item {}
 
 .header-link {
-    font-style: normal;
+
+    text-decoration: none;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -37,12 +38,37 @@ body {
     color: #2E2F42;
 }
 
+.header-link:hover {
+    color: #404BBF;
+}
+
+.header-link:focus {
+    color: #404BBF;
+}
+
 .header-address {}
 
-.addres-list {}
+.addres-list {
+    list-style: none;
+}
 
 .address-item {}
 
+.address-mailto:hover {
+    color: #404BBF;
+}
+
+.address-mailto:focus {
+    color: #404BBF;
+}
+
+.address-tel:hover {
+    color: #404BBF;
+}
+
+.address-tel:focus {
+    color: #404BBF;
+}
 
 .address-mailto,
 .address-tel {
@@ -56,17 +82,41 @@ body {
     color: #434455;
 }
 
+/* main */
+
+.title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+/* hero */
+
+.hero {}
+
 .hero-title {
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
-    background-color: black;
     color: #FFFFFF;
+    /* тимчасовий background-color: */
+    background-color: black;
 }
 
-.hero-button {
+.hero-btn {
+    cursor: pointer;
     background: #4D5AE5;
     font-weight: 500;
     font-size: 16px;
@@ -76,3 +126,102 @@ body {
     letter-spacing: 0.04em;
     color: #FFFFFF;
 }
+
+.hero-btn:hover {
+    color: #FFFFFF;
+    background: #404BBF;
+}
+
+/*  about */
+
+.about {}
+
+.about-list {
+    list-style: none;
+}
+
+.about-item {}
+
+.about-title {}
+
+.about-text {}
+
+/* work */
+
+.work {}
+
+.work-title {}
+
+.work-list {
+    list-style: none;
+}
+
+.work-item {}
+
+.team {}
+
+.team-title {}
+
+.team-list {
+    list-style: none;
+}
+
+.team-item {}
+
+.team-name {}
+
+.title {}
+
+.team-text {}
+
+/* footer */
+
+.text-logo {
+    color: #E7E9FC;
+}
+
+/* Portfolio */
+/* filters */
+
+.filters-list {
+    list-style: none
+}
+
+.filters-btn {
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #4D5AE5;
+    background-color: #F4F4FD;
+}
+
+.filters-btn:hover {
+    background-color: #404BBF;
+    color: #FFFFFF;
+}
+
+.filters-btn:focus {
+    background-color: #404BBF;
+    color: #FFFFFF;
+}
+
+.filters-item {}
+
+/* Projects */
+
+.project {}
+
+.project-list {
+    list-style: none;
+}
+
+.project-item {}
+
+.project-title {}
+
+.project-text {}
