@@ -55,10 +55,8 @@ body {
 
 .headerly-link:hover,
 .headerly-link:focus,
-.address-mailto:hover,
-.address-mailto:focus,
-.address-tel:hover,
-.address-tel:focus {
+.address-link:hover,
+.address-link:focus {
     color: #404BBF;
 }
 
@@ -70,8 +68,7 @@ body {
 
 .address-item {}
 
-.address-mailto,
-.address-tel {
+.address-link {
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
