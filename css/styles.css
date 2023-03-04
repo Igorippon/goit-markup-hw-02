@@ -17,13 +17,20 @@ body {
 
 .headerly-nav {}
 
-.headerly-logo {
+.link {
     text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}
+
+.headerly-logo {
     font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
-    line-height: 1.5;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4D5AE5;
@@ -33,9 +40,7 @@ body {
     color: var(--second-title-color);
 }
 
-.headerly-list {
-    list-style: none;
-}
+.headerly-list {}
 
 .headerly-item {}
 
@@ -57,11 +62,11 @@ body {
     color: #404BBF;
 }
 
-.headerly-address {}
-
-.addres-list {
-    list-style: none;
+.headerly-address {
+    font-style: normal;
 }
+
+.addres-list {}
 
 .address-item {}
 
@@ -69,9 +74,8 @@ body {
 .address-tel {
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
-    font-style: normal;
     font-size: 16px;
-    line-height: 1.5px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
@@ -90,7 +94,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-
+    color: var(--basic-text-color);
 }
 
 /*----------- hero -----------*/
@@ -109,6 +113,8 @@ body {
 }
 
 .hero-btn {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
     cursor: pointer;
     background: #4D5AE5;
     font-weight: 500;
@@ -130,9 +136,7 @@ body {
 
 .about {}
 
-.about-list {
-    list-style: none;
-}
+.about-list {}
 
 .about-item {}
 
@@ -153,9 +157,7 @@ body {
     color: var(--second-title-color);
 }
 
-.work-list {
-    list-style: none;
-}
+.work-list {}
 
 .work-item {}
 
@@ -172,9 +174,7 @@ body {
     color: var(--second-title-color);
 }
 
-.team-list {
-    list-style: none;
-}
+.team-list {}
 
 .team-item {}
 
@@ -200,11 +200,11 @@ body {
 
 .portfolio {}
 
-.filters-list {
-    list-style: none
-}
+.filters-list {}
 
 .filters-btn {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
     cursor: pointer;
     font-weight: 500;
     font-size: 16px;
@@ -225,21 +225,12 @@ body {
 
 .filters-item {}
 
-.project-list {
-    list-style: none;
-}
+.project-list {}
 
-
-.project-link {
-    text-decoration: none;
-}
+.project-link {}
 
 .project-item {}
 
-.project-title {
-    color: var(--second-title-color);
-}
+.project-title {}
 
-.project-text {
-    color: var(--basic-text-color);
-}
+.project-text {}
