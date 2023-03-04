@@ -1,7 +1,14 @@
+:root {
+    --mien-title-color: #FFFFFF;
+    --second-title-color: #2E2F42;
+    --basic-text-color: #434455;
+    --second-text-color: #E7E9FC;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
-    color: #434455;
+    color: var(--basic-text-color);
 }
 
 /*------------- header -------------*/
@@ -23,7 +30,7 @@ body {
 }
 
 .logo {
-    color: #2E2F42;
+    color: var(--second-title-color);
 }
 
 .headerly-list {
@@ -38,7 +45,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--second-title-color);
 }
 
 .headerly-link:hover,
@@ -76,7 +83,7 @@ body {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--second-title-color);
 }
 
 .text {
@@ -97,7 +104,7 @@ body {
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
-    color: #FFFFFF;
+    color: var(--mien-title-color);
 
 }
 
@@ -119,7 +126,7 @@ body {
     color: #FFFFFF;
 }
 
-/*-------- about ---------*/
+/* about */
 
 .about {}
 
@@ -133,7 +140,7 @@ body {
 
 .about-text {}
 
-/*------- work --------*/
+/* work */
 
 .work {}
 
@@ -143,7 +150,7 @@ body {
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: #2E2F42;
+    color: var(--second-title-color);
 }
 
 .work-list {
@@ -152,7 +159,7 @@ body {
 
 .work-item {}
 
-/*------- Team-------*/
+/* Team */
 
 .team {}
 
@@ -162,7 +169,7 @@ body {
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: #2E2F42;
+    color: var(--second-title-color);
 }
 
 .team-list {
@@ -222,8 +229,17 @@ body {
     list-style: none;
 }
 
+
+.project-link {
+    text-decoration: none;
+}
+
 .project-item {}
 
-.project-title {}
+.project-title {
+    color: var(--second-title-color);
+}
 
-.project-text {}
+.project-text {
+    color: var(--basic-text-color);
+}
