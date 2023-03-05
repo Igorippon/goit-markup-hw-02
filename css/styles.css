@@ -157,7 +157,9 @@ body {
 
 /* Team */
 
-.team {}
+.team {
+    background: #F4F4FD;
+}
 
 .team-title {
     font-size: 36px;
